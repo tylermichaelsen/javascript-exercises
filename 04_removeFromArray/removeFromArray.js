@@ -9,6 +9,7 @@ const removeFromArray = function(array, element) {
             continue;
         }
         // else add element at loop index to array
+        newArray.push(array[i]);
     }
     
     // End loop

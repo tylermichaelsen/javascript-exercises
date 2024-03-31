@@ -11,9 +11,9 @@ const removeFromArray = function(array, element) {
         // else add element at loop index to array
         newArray.push(array[i]);
     }
-    
     // End loop
     // Return array
+    return newArray;
 };
 
 // Do not edit below this line

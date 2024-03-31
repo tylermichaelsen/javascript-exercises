@@ -8,13 +8,13 @@ const reverseString = function(string) {
     for(let i = 0; i < string.length; i++) {
     // Get character at loop index of string
     // and put it at reverseString index of the reversed string array
-        reverseString[reversedIndex] = string.charAt(i);
+        reversedString[reversedIndex] = string.charAt(i);
     // Decrement reverse string array index
         reversedIndex--;
     // End Loop
     }
     // Return reversed string array as string
-    return reverseString.join("");
+    return reversedString.join("");
 };
 
 // Do not edit below this line

@@ -1,4 +1,4 @@
-const removeFromArray = function() {
+const removeFromArray = function(array, element) {
     // Create new array
     // Start loop
     // if element at loop index is argument

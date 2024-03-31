@@ -6,12 +6,11 @@ const reverseString = function(string) {
     let reversedIndex = string.length;
     // Start Loop
     for(let i = 0; i < string.length; i++) {
-        
-    }
     // Get character at loop index of string
     // and put it at reverseString index of the reversed string array
     // Decrement reverse string array index
     // End Loop
+    }
     // Return reversed string array as string
 };
 

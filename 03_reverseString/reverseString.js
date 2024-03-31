@@ -14,6 +14,7 @@ const reverseString = function(string) {
     // End Loop
     }
     // Return reversed string array as string
+    return reverseString.join("");
 };
 
 // Do not edit below this line

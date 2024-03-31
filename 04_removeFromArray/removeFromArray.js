@@ -4,7 +4,10 @@ const removeFromArray = function(array, element) {
     // Start loop
     for(let i = 0; i < array.length; i++) {
         // if element at loop index is argument
-        // continue
+        if(array[i] === element) {
+            // continue
+            continue;
+        }
         // else add element at loop index to array
     }
     

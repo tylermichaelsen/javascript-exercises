@@ -1,6 +1,7 @@
 const reverseString = function(string) {
-    // Store string length into variable
-    // Create 'reverseString array with size of string length
+    // Create 'reverseString' array with size of string length
+    let reversedString = Array.apply(null, Array(string.length))
+    .map(function () { });
     // Create reversed string variable starting index at last element of string
     // Start Loop
     // Get character at loop index of string

@@ -1,5 +1,6 @@
 const removeFromArray = function(array, element) {
     // Create new array
+    let newArray = new Array();
     // Start loop
     // if element at loop index is argument
     // continue

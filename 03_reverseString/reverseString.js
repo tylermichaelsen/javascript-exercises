@@ -3,8 +3,11 @@ const reverseString = function(string) {
     let reversedString = Array.apply(null, Array(string.length))
     .map(function () { });
     // Create reversed string variable starting index at last element of string
-    let reversedIndex = stringLength;
+    let reversedIndex = string.length;
     // Start Loop
+    for(let i = 0; i < string.length; i++) {
+        
+    }
     // Get character at loop index of string
     // and put it at reverseString index of the reversed string array
     // Decrement reverse string array index
